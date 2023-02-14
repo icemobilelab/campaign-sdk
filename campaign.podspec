@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
     s.name         = "campaign"
-    s.version      = "0.1.0"
+    s.version      = "0.1.1"
     s.summary      = "A SDK to integrate IceMobile campaigns into client apps"
     s.description  = "A SDK to integrate IceMobile campaigns into client apps"
-    s.homepage     = "http://your.homepage/here"
+    s.homepage     = "https://github.com/icemobilelab/campaign-sdk"
     s.license = { :type => 'Copyright', :text => <<-LICENSE
                    Copyright 2023
                    IceMobile Agency B.V
