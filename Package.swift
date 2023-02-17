@@ -17,6 +17,6 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .binaryTarget(name: "Campaign", path: "./Campaign.zip")
+        .binaryTarget(name: "Campaign", path: "./Campaign.xcframework")
     ]
 )

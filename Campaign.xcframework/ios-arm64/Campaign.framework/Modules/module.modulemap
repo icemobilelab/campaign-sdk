@@ -1,0 +1,11 @@
+framework module Campaign {
+  umbrella header "campaign.h"
+
+  export *
+  module * { export * }
+}
+
+module Campaign.Swift {
+  header "Campaign-Swift.h"
+  requires objc
+}
