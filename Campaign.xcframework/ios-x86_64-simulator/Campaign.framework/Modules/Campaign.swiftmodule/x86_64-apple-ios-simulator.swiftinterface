@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Campaign
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Campaign
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import Campaign
 import Foundation
@@ -12,23 +12,30 @@ import _StringProcessing
 public protocol LocaleProvider {
   func get() -> Foundation.Locale
 }
-@_hasMissingDesignatedInitializers public class IceCampaign {
+extension UIKit.UIView : WebKit.WKNavigationDelegate {
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction) async -> WebKit.WKNavigationActionPolicy
+  #endif
+}
+@usableFromInline
+internal protocol _AnyDecodable {
+  var value: Any { get }
+  init<T>(_ value: T?)
+}
+extension Campaign._AnyDecodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers final public class IceCampaign {
   public static func initialize(config: Campaign.CampaignConfig)
   @objc deinit
 }
 public protocol AuthenticationProvider {
   func get() -> Swift.String
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CampaignView : UIKit.UIView, WebKit.WKNavigationDelegate {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class CampaignView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  #if compiler(>=5.3) && $AsyncAwait
-  @_Concurrency.MainActor(unsafe) @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction) async -> WebKit.WKNavigationActionPolicy
-  #endif
   @objc deinit
-}
-extension UIKit.UIView : WebKit.WKScriptMessageHandler {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
 @_hasMissingDesignatedInitializers public class CampaignConfig {
   public class Builder {

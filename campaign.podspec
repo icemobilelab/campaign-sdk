@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "campaign"
-    s.version      = "0.1.1"
+    s.version      = "0.2.0"
     s.summary      = "A SDK to integrate IceMobile campaigns into client apps"
     s.description  = "A SDK to integrate IceMobile campaigns into client apps"
     s.homepage     = "https://github.com/icemobilelab/campaign-sdk"

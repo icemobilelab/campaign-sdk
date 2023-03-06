@@ -99,6 +99,134 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "_AnyDecodable",
+        "printedName": "_AnyDecodable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Campaign13_AnyDecodableP5valueypvp",
+            "mangledName": "$s8Campaign13_AnyDecodableP5valueypvp",
+            "moduleName": "Campaign",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Campaign13_AnyDecodableP5valueypvg",
+                "mangledName": "$s8Campaign13_AnyDecodableP5valueypvg",
+                "moduleName": "Campaign",
+                "genericSig": "<τ_0_0 where τ_0_0 : Campaign._AnyDecodable>",
+                "sugared_genericSig": "<Self where Self : Campaign._AnyDecodable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_1_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Campaign13_AnyDecodablePyxqd__Sgclufc",
+            "mangledName": "$s8Campaign13_AnyDecodablePyxqd__Sgclufc",
+            "moduleName": "Campaign",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Campaign._AnyDecodable>",
+            "sugared_genericSig": "<Self, T where Self : Campaign._AnyDecodable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Campaign13_AnyDecodablePAAE4fromxs7Decoder_p_tKcfc",
+            "mangledName": "$s8Campaign13_AnyDecodablePAAE4fromxs7Decoder_p_tKcfc",
+            "moduleName": "Campaign",
+            "genericSig": "<τ_0_0 where τ_0_0 : Campaign._AnyDecodable>",
+            "sugared_genericSig": "<Self where Self : Campaign._AnyDecodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8Campaign13_AnyDecodableP",
+        "mangledName": "$s8Campaign13_AnyDecodableP",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "UsableFromInline"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "IceCampaign",
         "printedName": "IceCampaign",
         "children": [
@@ -136,6 +264,7 @@
         "mangledName": "$s8Campaign03IceA0C",
         "moduleName": "Campaign",
         "declAttributes": [
+          "Final",
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
@@ -308,43 +437,6 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:decidePolicyFor:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WKNavigationActionPolicy",
-                "printedName": "WebKit.WKNavigationActionPolicy",
-                "usr": "c:@E@WKNavigationActionPolicy"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKNavigationAction",
-                "printedName": "WebKit.WKNavigationAction",
-                "usr": "c:objc(cs)WKNavigationAction"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Campaign@objc(cs)CampaignView(im)webView:decidePolicyForNavigationAction:decisionHandler:",
-            "mangledName": "$s8Campaign0A4ViewC03webB0_15decidePolicyForSo018WKNavigationActionE0VSo05WKWebB0C_So0gH0CtYaF",
-            "moduleName": "Campaign",
-            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
-            "declAttributes": [
-              "ObjC",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -353,6 +445,7 @@
         "moduleName": "Campaign",
         "declAttributes": [
           "Custom",
+          "Final",
           "AccessControl",
           "ObjC"
         ],
@@ -824,32 +917,33 @@
         "children": [
           {
             "kind": "Function",
-            "name": "userContentController",
-            "printedName": "userContentController(_:didReceive:)",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "WKNavigationActionPolicy",
+                "printedName": "WebKit.WKNavigationActionPolicy",
+                "usr": "c:@E@WKNavigationActionPolicy"
               },
               {
                 "kind": "TypeNominal",
-                "name": "WKUserContentController",
-                "printedName": "WebKit.WKUserContentController",
-                "usr": "c:objc(cs)WKUserContentController"
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
               },
               {
                 "kind": "TypeNominal",
-                "name": "WKScriptMessage",
-                "printedName": "WebKit.WKScriptMessage",
-                "usr": "c:objc(cs)WKScriptMessage"
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@Campaign@@objc(cs)UIView(im)userContentController:didReceiveScriptMessage:",
-            "mangledName": "$sSo6UIViewC8CampaignE21userContentController_10didReceiveySo06WKUserdE0C_So15WKScriptMessageCtF",
+            "usr": "c:@CM@Campaign@@objc(cs)UIView(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$sSo6UIViewC8CampaignE7webView_15decidePolicyForSo018WKNavigationActionF0VSo05WKWebD0C_So0hI0CtYaF",
             "moduleName": "Campaign",
-            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -953,9 +1047,37 @@
     {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignRepository.swift",
       "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 461,
       "length": 120,
       "value": "\"https:\/\/api.apps.prd.canadacentral.bright-shopper.com\/sdk-check\/v1\/validation?api_key=8458296b947d1a9d3f7b7bf528082cbb\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 17,
+      "value": "\"Accept-Language\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 483,
+      "length": 16,
+      "value": "\"x-virtual-card\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 13,
+      "value": "\"x-client-id\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 17,
+      "value": "\"x-authorization\""
     }
   ]
 }

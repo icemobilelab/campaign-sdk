@@ -254,22 +254,19 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 @class NSCoder;
-@class WKWebView;
-@class WKNavigationAction;
 
 SWIFT_CLASS("_TtC8Campaign12CampaignView")
-@interface CampaignView : UIView <WKNavigationDelegate>
+@interface CampaignView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))completionHandler;
 @end
 
 
-@class WKUserContentController;
-@class WKScriptMessage;
+@class WKWebView;
+@class WKNavigationAction;
 
-@interface UIView (SWIFT_EXTENSION(Campaign)) <WKScriptMessageHandler>
-- (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
+@interface UIView (SWIFT_EXTENSION(Campaign)) <WKNavigationDelegate>
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))completionHandler;
 @end
 
 

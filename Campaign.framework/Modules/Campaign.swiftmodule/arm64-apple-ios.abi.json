@@ -3,7 +3,1081 @@
     "kind": "Root",
     "name": "TopLevel",
     "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocaleProvider",
+        "printedName": "LocaleProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Locale",
+                "printedName": "Foundation.Locale",
+                "usr": "s:10Foundation6LocaleV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Campaign14LocaleProviderP3get10Foundation0B0VyF",
+            "mangledName": "$s8Campaign14LocaleProviderP3get10Foundation0B0VyF",
+            "moduleName": "Campaign",
+            "genericSig": "<τ_0_0 where τ_0_0 : Campaign.LocaleProvider>",
+            "sugared_genericSig": "<Self where Self : Campaign.LocaleProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8Campaign14LocaleProviderP",
+        "mangledName": "$s8Campaign14LocaleProviderP",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Campaign"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_AnyDecodable",
+        "printedName": "_AnyDecodable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Campaign13_AnyDecodableP5valueypvp",
+            "mangledName": "$s8Campaign13_AnyDecodableP5valueypvp",
+            "moduleName": "Campaign",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Campaign13_AnyDecodableP5valueypvg",
+                "mangledName": "$s8Campaign13_AnyDecodableP5valueypvg",
+                "moduleName": "Campaign",
+                "genericSig": "<τ_0_0 where τ_0_0 : Campaign._AnyDecodable>",
+                "sugared_genericSig": "<Self where Self : Campaign._AnyDecodable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_1_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Campaign13_AnyDecodablePyxqd__Sgclufc",
+            "mangledName": "$s8Campaign13_AnyDecodablePyxqd__Sgclufc",
+            "moduleName": "Campaign",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Campaign._AnyDecodable>",
+            "sugared_genericSig": "<Self, T where Self : Campaign._AnyDecodable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Campaign13_AnyDecodablePAAE4fromxs7Decoder_p_tKcfc",
+            "mangledName": "$s8Campaign13_AnyDecodablePAAE4fromxs7Decoder_p_tKcfc",
+            "moduleName": "Campaign",
+            "genericSig": "<τ_0_0 where τ_0_0 : Campaign._AnyDecodable>",
+            "sugared_genericSig": "<Self where Self : Campaign._AnyDecodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8Campaign13_AnyDecodableP",
+        "mangledName": "$s8Campaign13_AnyDecodableP",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "UsableFromInline"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IceCampaign",
+        "printedName": "IceCampaign",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CampaignConfig",
+                "printedName": "Campaign.CampaignConfig",
+                "usr": "s:8Campaign0A6ConfigC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Campaign03IceA0C10initialize6configyAA0A6ConfigC_tFZ",
+            "mangledName": "$s8Campaign03IceA0C10initialize6configyAA0A6ConfigC_tFZ",
+            "moduleName": "Campaign",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8Campaign03IceA0C",
+        "mangledName": "$s8Campaign03IceA0C",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthenticationProvider",
+        "printedName": "AuthenticationProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Campaign22AuthenticationProviderP3getSSyF",
+            "mangledName": "$s8Campaign22AuthenticationProviderP3getSSyF",
+            "moduleName": "Campaign",
+            "genericSig": "<τ_0_0 where τ_0_0 : Campaign.AuthenticationProvider>",
+            "sugared_genericSig": "<Self where Self : Campaign.AuthenticationProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8Campaign22AuthenticationProviderP",
+        "mangledName": "$s8Campaign22AuthenticationProviderP",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Campaign"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Campaign"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CampaignView",
+        "printedName": "CampaignView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Campaign.CampaignView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CampaignView",
+                    "printedName": "Campaign.CampaignView",
+                    "usr": "c:@M@Campaign@objc(cs)CampaignView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Campaign@objc(cs)CampaignView(im)initWithCoder:",
+            "mangledName": "$s8Campaign0A4ViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Campaign",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CampaignView",
+                "printedName": "Campaign.CampaignView",
+                "usr": "c:@M@Campaign@objc(cs)CampaignView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Campaign@objc(cs)CampaignView(im)initWithFrame:",
+            "mangledName": "$s8Campaign0A4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "Campaign",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Campaign@objc(cs)CampaignView",
+        "mangledName": "$s8Campaign0A4ViewC",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Campaign"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Campaign"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CampaignConfig",
+        "printedName": "CampaignConfig",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "Campaign.CampaignConfig.Builder",
+                    "usr": "s:8Campaign0A6ConfigC7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8Campaign0A6ConfigC7BuilderCAEycfc",
+                "mangledName": "$s8Campaign0A6ConfigC7BuilderCAEycfc",
+                "moduleName": "Campaign",
+                "declAttributes": [
+                  "Required",
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "withLocaleProvider",
+                "printedName": "withLocaleProvider(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "Campaign.CampaignConfig.Builder",
+                    "usr": "s:8Campaign0A6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocaleProvider",
+                    "printedName": "Campaign.LocaleProvider",
+                    "usr": "s:8Campaign14LocaleProviderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8Campaign0A6ConfigC7BuilderC18withLocaleProvideryAeA0eF0_pF",
+                "mangledName": "$s8Campaign0A6ConfigC7BuilderC18withLocaleProvideryAeA0eF0_pF",
+                "moduleName": "Campaign",
+                "declAttributes": [
+                  "AccessControl",
+                  "DiscardableResult"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withExtraParameterProvider",
+                "printedName": "withExtraParameterProvider(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "Campaign.CampaignConfig.Builder",
+                    "usr": "s:8Campaign0A6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExtraParameterProvider",
+                    "printedName": "Campaign.ExtraParameterProvider",
+                    "usr": "s:8Campaign22ExtraParameterProviderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8Campaign0A6ConfigC7BuilderC26withExtraParameterProvideryAeA0efG0_pF",
+                "mangledName": "$s8Campaign0A6ConfigC7BuilderC26withExtraParameterProvideryAeA0efG0_pF",
+                "moduleName": "Campaign",
+                "declAttributes": [
+                  "AccessControl",
+                  "DiscardableResult"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withCardNumberProvider",
+                "printedName": "withCardNumberProvider(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "Campaign.CampaignConfig.Builder",
+                    "usr": "s:8Campaign0A6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardNumberProvider",
+                    "printedName": "Campaign.CardNumberProvider",
+                    "usr": "s:8Campaign18CardNumberProviderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8Campaign0A6ConfigC7BuilderC22withCardNumberProvideryAeA0efG0_pF",
+                "mangledName": "$s8Campaign0A6ConfigC7BuilderC22withCardNumberProvideryAeA0efG0_pF",
+                "moduleName": "Campaign",
+                "declAttributes": [
+                  "AccessControl",
+                  "DiscardableResult"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withAuthenticationProvider",
+                "printedName": "withAuthenticationProvider(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "Campaign.CampaignConfig.Builder",
+                    "usr": "s:8Campaign0A6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthenticationProvider",
+                    "printedName": "Campaign.AuthenticationProvider",
+                    "usr": "s:8Campaign22AuthenticationProviderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8Campaign0A6ConfigC7BuilderC26withAuthenticationProvideryAeA0eF0_pF",
+                "mangledName": "$s8Campaign0A6ConfigC7BuilderC26withAuthenticationProvideryAeA0eF0_pF",
+                "moduleName": "Campaign",
+                "declAttributes": [
+                  "AccessControl",
+                  "DiscardableResult"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build(apiKey:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CampaignConfig",
+                    "printedName": "Campaign.CampaignConfig",
+                    "usr": "s:8Campaign0A6ConfigC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8Campaign0A6ConfigC7BuilderC5build6apiKeyACSS_tKF",
+                "mangledName": "$s8Campaign0A6ConfigC7BuilderC5build6apiKeyACSS_tKF",
+                "moduleName": "Campaign",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:8Campaign0A6ConfigC7BuilderC",
+            "mangledName": "$s8Campaign0A6ConfigC7BuilderC",
+            "moduleName": "Campaign",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8Campaign0A6ConfigC",
+        "mangledName": "$s8Campaign0A6ConfigC",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Campaign"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Campaign"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardNumberProvider",
+        "printedName": "CardNumberProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Campaign18CardNumberProviderP3getSSyF",
+            "mangledName": "$s8Campaign18CardNumberProviderP3getSSyF",
+            "moduleName": "Campaign",
+            "genericSig": "<τ_0_0 where τ_0_0 : Campaign.CardNumberProvider>",
+            "sugared_genericSig": "<Self where Self : Campaign.CardNumberProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8Campaign18CardNumberProviderP",
+        "mangledName": "$s8Campaign18CardNumberProviderP",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExtraParameterProvider",
+        "printedName": "ExtraParameterProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Campaign22ExtraParameterProviderP3getSDyS2SGyF",
+            "mangledName": "$s8Campaign22ExtraParameterProviderP3getSDyS2SGyF",
+            "moduleName": "Campaign",
+            "genericSig": "<τ_0_0 where τ_0_0 : Campaign.ExtraParameterProvider>",
+            "sugared_genericSig": "<Self where Self : Campaign.ExtraParameterProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8Campaign22ExtraParameterProviderP",
+        "mangledName": "$s8Campaign22ExtraParameterProviderP",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationActionPolicy",
+                "printedName": "WebKit.WKNavigationActionPolicy",
+                "usr": "c:@E@WKNavigationActionPolicy"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Campaign@@objc(cs)UIView(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$sSo6UIViewC8CampaignE7webView_15decidePolicyForSo018WKNavigationActionF0VSo05WKWebD0C_So0hI0CtYaF",
+            "moduleName": "Campaign",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 120,
+      "value": "\"https:\/\/api.apps.prd.canadacentral.bright-shopper.com\/sdk-check\/v1\/validation?api_key=8458296b947d1a9d3f7b7bf528082cbb\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 17,
+      "value": "\"Accept-Language\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 483,
+      "length": 16,
+      "value": "\"x-virtual-card\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 13,
+      "value": "\"x-client-id\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 17,
+      "value": "\"x-authorization\""
+    }
+  ]
 }
