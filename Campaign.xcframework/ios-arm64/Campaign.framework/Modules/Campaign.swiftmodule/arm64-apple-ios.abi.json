@@ -1163,8 +1163,8 @@
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignRepository.swift",
       "kind": "StringLiteral",
       "offset": 461,
-      "length": 120,
-      "value": "\"https:\/\/api.apps.prd.canadacentral.bright-shopper.com\/sdk-check\/v1\/validation?api_key=8458296b947d1a9d3f7b7bf528082cbb\""
+      "length": 113,
+      "value": "\"https:\/\/api.apps.r3vzjvjk.westeurope.aroapp.io\/sdk-check\/v1\/validation?api_key=8458296b947d1a9d3f7b7bf528082cbb\""
     },
     {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
