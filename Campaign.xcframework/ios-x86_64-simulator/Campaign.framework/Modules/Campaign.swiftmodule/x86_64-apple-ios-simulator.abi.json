@@ -695,6 +695,34 @@
               },
               {
                 "kind": "Function",
+                "name": "withCampaignDetailConfig",
+                "printedName": "withCampaignDetailConfig(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "Campaign.CampaignConfig.Builder",
+                    "usr": "s:8Campaign0A6ConfigC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CampaignDetailConfig",
+                    "printedName": "Campaign.CampaignDetailConfig",
+                    "usr": "s:8Campaign0A12DetailConfigV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8Campaign0A6ConfigC7BuilderC04witha6DetailB0yAeA0aeB0VF",
+                "mangledName": "$s8Campaign0A6ConfigC7BuilderC04witha6DetailB0yAeA0aeB0VF",
+                "moduleName": "Campaign",
+                "declAttributes": [
+                  "AccessControl",
+                  "DiscardableResult"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "build",
                 "printedName": "build(apiKey:)",
                 "children": [
@@ -739,6 +767,86 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Campaign"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CampaignDetailConfig",
+        "printedName": "CampaignDetailConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(navigationBarBackgroundColor:navigationBarTitleColor:backButtonImage:presentationStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CampaignDetailConfig",
+                "printedName": "Campaign.CampaignDetailConfig",
+                "usr": "s:8Campaign0A12DetailConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIModalPresentationStyle",
+                "printedName": "UIKit.UIModalPresentationStyle",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIModalPresentationStyle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Campaign0A12DetailConfigV28navigationBarBackgroundColor0de5TitleG015backButtonImage17presentationStyleACSo7UIColorC_AISo7UIImageCSo019UIModalPresentationM0Vtcfc",
+            "mangledName": "$s8Campaign0A12DetailConfigV28navigationBarBackgroundColor0de5TitleG015backButtonImage17presentationStyleACSo7UIColorC_AISo7UIImageCSo019UIModalPresentationM0Vtcfc",
+            "moduleName": "Campaign",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8Campaign0A12DetailConfigV",
+        "mangledName": "$s8Campaign0A12DetailConfigV",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -1040,9 +1148,16 @@
     {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1058,
+      "offset": 1220,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignDetailConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 18,
+      "value": "\"chevron.backward\""
     },
     {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignRepository.swift",

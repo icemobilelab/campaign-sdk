@@ -6,7 +6,7 @@
 	<dict>
 		<key>CampaignDetailView.nib</key>
 		<data>
-		gjAbpucSiewkzeXLvZ14rQEmePU=
+		BT9GUd0zImkiLZSm12MeOZoJWMw=
 		</data>
 		<key>Headers/Campaign-Swift.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oNbrYnoDDS38Nh05PYvjhsTLYT4=
+		4AaUpDLZudCwRba0gu8AOSUQbMI=
 		</data>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FVmylH18O31fjpflNnv9Fe0UX+c=
+		VVKt6Oa8d2/zGV7pXgti4k/gWAY=
 		</data>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FVmylH18O31fjpflNnv9Fe0UX+c=
+		VVKt6Oa8d2/zGV7pXgti4k/gWAY=
 		</data>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BwFswel7Cdo1MJNg3lqST0YO0go=
+		ipCHd7s2wApyuF4xrEspfa5Wycw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GhvE1F82UBL93e6nZHt7Y5NVdZ9lvtP+WwIklZcAzXQ=
+			hLorogY4B2HbAWy2tcDiJ0Tx0sma6YKF11qeO0v6X0I=
 			</data>
 		</dict>
 		<key>Headers/Campaign-Swift.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Zd3D0gGnXCl26cuNPeD3kJy9pCrML7lFvF0SAGGPzI=
+			iH1MCUWpmSTzson4yw8PAgsgB3hST4P4Wd/0pwqGroQ=
 			</data>
 		</dict>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FNTZ+fNNrk9IX/DrlH7AAgVO6vPvUeYvl+zefIHUGAI=
+			IFQEcMsf43CEdzR7XqBR87qbc5QqYZR+xVxnMLkaYiU=
 			</data>
 		</dict>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FNTZ+fNNrk9IX/DrlH7AAgVO6vPvUeYvl+zefIHUGAI=
+			IFQEcMsf43CEdzR7XqBR87qbc5QqYZR+xVxnMLkaYiU=
 			</data>
 		</dict>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ixNUnKsc+2wYdj5QUmqrZbVoIZeDLxzGo+kV4h0ZQg=
+			wZlCCMaO2N/QzHflxt+U7o1UIjmfdBGe12VOB4/Ppvw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

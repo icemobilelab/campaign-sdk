@@ -11,12 +11,12 @@ Pod::Spec.new do |s|
                 }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
     s.source       = { :git => "https://github.com/icemobilelab/campaign-sdk.git", :tag => "#{s.version}" }
-    s.public_header_files = "Campaign.framework/Headers/*.h"
-    s.source_files = "Campaign.framework/Headers/*.h"
-    s.vendored_frameworks = "Campaign.framework"
+    #s.public_header_files = "Campaign.framework/Headers/*.h"
+    #s.source_files = "Campaign.framework/Headers/*.h"
+    s.vendored_frameworks = "Campaign.xcframework"
     s.platform = :ios
     s.swift_version = "5.0"
     s.ios.deployment_target  = '14.0'
-    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
