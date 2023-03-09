@@ -11,8 +11,6 @@ Pod::Spec.new do |s|
                 }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
     s.source       = { :git => "https://github.com/icemobilelab/campaign-sdk.git", :tag => "#{s.version}" }
-    #s.public_header_files = "Campaign.framework/Headers/*.h"
-    #s.source_files = "Campaign.framework/Headers/*.h"
     s.vendored_frameworks = "Campaign.xcframework"
     s.platform = :ios
     s.swift_version = "5.0"
