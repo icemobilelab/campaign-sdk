@@ -281,6 +281,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Campaign"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Campaign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -437,6 +454,79 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setErrorHandler",
+            "printedName": "setErrorHandler(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Campaign.CampaignView) -> UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CampaignView",
+                    "printedName": "Campaign.CampaignView",
+                    "usr": "c:@M@Campaign@objc(cs)CampaignView"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Campaign0A4ViewC15setErrorHandleryySo6UIViewCSgACcF",
+            "mangledName": "$s8Campaign0A4ViewC15setErrorHandleryySo6UIViewCSgACcF",
+            "moduleName": "Campaign",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reload",
+            "printedName": "reload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Campaign0A4ViewC6reloadyyF",
+            "mangledName": "$s8Campaign0A4ViewC6reloadyyF",
+            "moduleName": "Campaign",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -512,6 +602,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1148,7 +1245,21 @@
     {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1220,
+      "offset": 1306,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1370,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1414,
       "length": 2,
       "value": "\"\""
     },
@@ -1163,36 +1274,43 @@
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignRepository.swift",
       "kind": "StringLiteral",
       "offset": 461,
-      "length": 120,
-      "value": "\"https:\/\/api.apps.prd.canadacentral.bright-shopper.com\/sdk-check\/v1\/validation?api_key=8458296b947d1a9d3f7b7bf528082cbb\""
+      "length": 113,
+      "value": "\"https:\/\/api.apps.r3vzjvjk.westeurope.aroapp.io\/sdk-check\/v1\/validation?api_key=8458296b947d1a9d3f7b7bf528082cbb\""
     },
     {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
       "kind": "StringLiteral",
-      "offset": 432,
+      "offset": 467,
       "length": 17,
       "value": "\"Accept-Language\""
     },
     {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
       "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 518,
       "length": 16,
       "value": "\"x-virtual-card\""
     },
     {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
       "kind": "StringLiteral",
-      "offset": 530,
+      "offset": 565,
       "length": 13,
       "value": "\"x-client-id\""
     },
     {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
       "kind": "StringLiteral",
-      "offset": 579,
+      "offset": 614,
       "length": 17,
       "value": "\"x-authorization\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 664,
+      "length": 15,
+      "value": "\"x-app-version\""
     }
   ]
 }

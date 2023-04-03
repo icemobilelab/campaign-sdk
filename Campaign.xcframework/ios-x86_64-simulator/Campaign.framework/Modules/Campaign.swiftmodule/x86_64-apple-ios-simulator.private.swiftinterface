@@ -35,6 +35,8 @@ public protocol AuthenticationProvider {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class CampaignView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) final public func setErrorHandler(_ errorHandler: @escaping (Campaign.CampaignView) -> UIKit.UIView?)
+  @_Concurrency.MainActor(unsafe) final public func reload()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class CampaignConfig {
