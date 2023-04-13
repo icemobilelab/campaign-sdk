@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Campaign
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Campaign
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import Campaign
 import Foundation
@@ -23,7 +23,7 @@ internal protocol _AnyDecodable {
   init<T>(_ value: T?)
 }
 extension Campaign._AnyDecodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers final public class IceCampaign {
   public static func initialize(config: Campaign.CampaignConfig)
@@ -43,13 +43,13 @@ public protocol AuthenticationProvider {
   public class Builder {
     required public init()
     @discardableResult
-    public func withLocaleProvider(_ localeProvider: Campaign.LocaleProvider) -> Campaign.CampaignConfig.Builder
+    public func withLocaleProvider(_ localeProvider: any Campaign.LocaleProvider) -> Campaign.CampaignConfig.Builder
     @discardableResult
-    public func withExtraParameterProvider(_ extraParameterProvider: Campaign.ExtraParameterProvider) -> Campaign.CampaignConfig.Builder
+    public func withExtraParameterProvider(_ extraParameterProvider: any Campaign.ExtraParameterProvider) -> Campaign.CampaignConfig.Builder
     @discardableResult
-    public func withCardNumberProvider(_ cardNumberProvider: Campaign.CardNumberProvider) -> Campaign.CampaignConfig.Builder
+    public func withCardNumberProvider(_ cardNumberProvider: any Campaign.CardNumberProvider) -> Campaign.CampaignConfig.Builder
     @discardableResult
-    public func withAuthenticationProvider(_ authenticationProvider: Campaign.AuthenticationProvider) -> Campaign.CampaignConfig.Builder
+    public func withAuthenticationProvider(_ authenticationProvider: any Campaign.AuthenticationProvider) -> Campaign.CampaignConfig.Builder
     @discardableResult
     public func withCampaignDetailConfig(_ campaignDetailConfig: Campaign.CampaignDetailConfig) -> Campaign.CampaignConfig.Builder
     public func build(apiKey: Swift.String) throws -> Campaign.CampaignConfig

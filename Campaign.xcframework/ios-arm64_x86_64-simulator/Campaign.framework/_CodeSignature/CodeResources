@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/Campaign-Swift.h</key>
 		<data>
-		rH08mePpX1PyivKdA5kcyguMZR4=
+		1EjyjYhp7Pl26EYTWoLq7zhjx5s=
 		</data>
 		<key>Headers/campaign.h</key>
 		<data>
@@ -22,27 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mpHtIcaNMbjokqfNMYEbU5DS1GA=
+		5LSNh1QtIbgDeT8xeoGlMJDB0K4=
+		</data>
+		<key>Modules/Campaign.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		g/vp1+z822UMyhvNGCZqmlWFp1o=
+		</data>
+		<key>Modules/Campaign.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		4hcIV7UVFYj7LViT67A1ZALvVEw=
+		</data>
+		<key>Modules/Campaign.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		j9DKvij+3iZtpA5ygs/xjFfcsF4=
+		</data>
+		<key>Modules/Campaign.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		4hcIV7UVFYj7LViT67A1ZALvVEw=
+		</data>
+		<key>Modules/Campaign.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		80VC/6qTKAljJsxuB8I/U3GGHMs=
 		</data>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3HZiK1PP2TVf/GseiqmKrjQ0Ee8=
+		g/vp1+z822UMyhvNGCZqmlWFp1o=
 		</data>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MCoOEqvx7gHChrWUGpJUA21t/B4=
+		5nrdbEj5laYVYXHp5e1TNAZ/9gY=
 		</data>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Kg5O2dnkJjf1DatN2nMLSAl9FG8=
+		BnhADKKLENyH242ul76AIsB6+6Y=
 		</data>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MCoOEqvx7gHChrWUGpJUA21t/B4=
+		5nrdbEj5laYVYXHp5e1TNAZ/9gY=
 		</data>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NakolZkArGFxVqIucBGdYsOZpyE=
+		Wh5BCdvmIW0W2PCnyqPL9TGKi6A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fkfttLR66L1kgh54uJtGtzkZwo1XsYywFZLGrQphwcI=
+			tUfMc8O1djDhzBitgi/ids9tHc9A1Ay3VaW9KkJ6llA=
 			</data>
 		</dict>
 		<key>Headers/campaign.h</key>
@@ -79,39 +99,74 @@
 			CXISErNjlys4AFwYg5KuuulLbx8lq1Q0ElTK2CjFrV8=
 			</data>
 		</dict>
+		<key>Modules/Campaign.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nbbHRqSMii/IZert1VZZUpzHw/VVsr//2YDx3T5cS4A=
+			</data>
+		</dict>
+		<key>Modules/Campaign.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sC2WsHGXM13/WmOsB+Tm2ch28oXs0AQSTrrCuPKR8uo=
+			</data>
+		</dict>
+		<key>Modules/Campaign.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xJzUN/jLPaRTVqg/Y+2Y21jccDzLEqUalZYvWIx25gE=
+			</data>
+		</dict>
+		<key>Modules/Campaign.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sC2WsHGXM13/WmOsB+Tm2ch28oXs0AQSTrrCuPKR8uo=
+			</data>
+		</dict>
+		<key>Modules/Campaign.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hbPG20mzGPSw0+fuTs0+c4nFX9E3W5o61ttDn3cXx5I=
+			</data>
+		</dict>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPVanT5FmAGBVJTgaZuVb8Ql30dALbJliF7xBKzOjw4=
+			nbbHRqSMii/IZert1VZZUpzHw/VVsr//2YDx3T5cS4A=
 			</data>
 		</dict>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ok4LfRoVKfBzumApt5j6SBEQ6pC6KTvnQ0fmjZqYsxw=
+			euMALbaOpmS+RltXcYCCZBW02mxKtSQs0tl9jDevSfc=
 			</data>
 		</dict>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/8WTdRiY98Tl3RxffuENa1IZWKsIOICQfzvukop7fIE=
+			FGRETaDQzlwVYrdT6NsXPnGE60aW3FRollcsVgLOyqo=
 			</data>
 		</dict>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ok4LfRoVKfBzumApt5j6SBEQ6pC6KTvnQ0fmjZqYsxw=
+			euMALbaOpmS+RltXcYCCZBW02mxKtSQs0tl9jDevSfc=
 			</data>
 		</dict>
 		<key>Modules/Campaign.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R7UgTWPvT+4UrPuxc9b+mX5S3JQm0NZujbGtKjidgn0=
+			cK5CnikassgHuLbiAmWlEWJXB0F7OMpI5NUUucGXoVI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

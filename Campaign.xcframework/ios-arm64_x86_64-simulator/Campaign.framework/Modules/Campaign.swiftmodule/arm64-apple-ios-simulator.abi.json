@@ -1243,6 +1243,286 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1371,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 13,
+      "value": "\"IceCampaign\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1813,
+      "length": 13,
+      "value": "\"about:blank\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2100,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2270,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2337,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2372,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2384,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2394,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2446,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2484,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2502,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2514,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2524,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/DefaultAuthenticationProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/AnyDecodable.swift",
+      "kind": "StringLiteral",
+      "offset": 2467,
+      "length": 38,
+      "value": "\"AnyDecodable value cannot be decoded\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/AnyDecodable.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2773,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/AnyDecodable.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4105,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/AnyDecodable.swift",
+      "kind": "StringLiteral",
+      "offset": 4677,
+      "length": 41,
+      "value": "\"AnyDecodable(\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/AnyDecodable.swift",
+      "kind": "StringLiteral",
+      "offset": 4716,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/AnyDecodable.swift",
+      "kind": "StringLiteral",
+      "offset": 4755,
+      "length": 30,
+      "value": "\"AnyDecodable(\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/AnyDecodable.swift",
+      "kind": "StringLiteral",
+      "offset": 4783,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/DefaultCampaignErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 605,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/DefaultCampaignErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 1051,
+      "length": 28,
+      "value": "\"DefaultCampaignErrorLayout\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 12,
+      "value": "\"openDetail\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
+      "length": 13,
+      "value": "\"closeDetail\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1499,
+      "length": 7,
+      "value": "\"share\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1769,
+      "length": 9,
+      "value": "\"content\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1861,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1926,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1975,
+      "length": 8,
+      "value": "\"binary\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2386,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 2563,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3033,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 3313,
+      "length": 10,
+      "value": "\"{\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 3321,
+      "length": 1,
+      "value": "\"}\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 3403,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3699,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignJavascriptInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3863,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignConfig.swift",
       "kind": "StringLiteral",
       "offset": 1306,
@@ -1271,11 +1551,53 @@
       "value": "\"chevron.backward\""
     },
     {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/DefaultExtraParameterProvider.swift",
+      "kind": "Dictionary",
+      "offset": 251,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignDetailViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1668,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignDetailViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2244,
+      "length": 20,
+      "value": "\"CampaignDetailView\""
+    },
+    {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignRepository.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 113,
       "value": "\"https:\/\/api.apps.r3vzjvjk.westeurope.aroapp.io\/sdk-check\/v1\/validation?api_key=8458296b947d1a9d3f7b7bf528082cbb\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1343,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1383,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/CampaignRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1428,
+      "length": 6,
+      "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/leonardo.rossetto@icemobile.com\/Developer\/campaign-sdk-ios\/campaign\/campaign\/HeaderProvider.swift",
