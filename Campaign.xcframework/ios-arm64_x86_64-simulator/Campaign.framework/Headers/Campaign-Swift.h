@@ -292,11 +292,13 @@ SWIFT_CLASS("_TtC8Campaign12CampaignView")
 @end
 
 
+
+
 @class WKWebView;
 @class WKNavigationAction;
 
 @interface UIView (SWIFT_EXTENSION(Campaign)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))completionHandler;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 @end
 
 
@@ -602,11 +604,13 @@ SWIFT_CLASS("_TtC8Campaign12CampaignView")
 @end
 
 
+
+
 @class WKWebView;
 @class WKNavigationAction;
 
 @interface UIView (SWIFT_EXTENSION(Campaign)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))completionHandler;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 @end
 
 

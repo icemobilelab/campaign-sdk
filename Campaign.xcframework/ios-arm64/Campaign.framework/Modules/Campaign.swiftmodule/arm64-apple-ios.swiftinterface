@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Campaign
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Campaign
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import Campaign
 import Foundation
@@ -13,9 +13,7 @@ public protocol LocaleProvider {
   func get() -> Foundation.Locale
 }
 extension UIKit.UIView : WebKit.WKNavigationDelegate {
-  #if compiler(>=5.3) && $AsyncAwait
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction) async -> WebKit.WKNavigationActionPolicy
-  #endif
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
 }
 @usableFromInline
 internal protocol _AnyDecodable {
@@ -58,7 +56,17 @@ public protocol AuthenticationProvider {
   @objc deinit
 }
 public struct CampaignDetailConfig {
-  public init(navigationBarBackgroundColor: UIKit.UIColor = .systemBackground, navigationBarTitleColor: UIKit.UIColor = .darkText, backButtonImage: UIKit.UIImage = UIImage(systemName: "chevron.backward")!, presentationStyle: UIKit.UIModalPresentationStyle = .fullScreen)
+  public init(navigationBarBackgroundColor: UIKit.UIColor = .systemBackgrundCompat, navigationBarTitleColor: UIKit.UIColor = .darkText, backButtonImage: UIKit.UIImage = .backButtonImageCompat, presentationStyle: UIKit.UIModalPresentationStyle = .fullScreen)
+}
+extension UIKit.UIColor {
+  public class var systemBackgrundCompat: UIKit.UIColor {
+    get
+  }
+}
+extension UIKit.UIImage {
+  public class var backButtonImageCompat: UIKit.UIImage {
+    get
+  }
 }
 public protocol CardNumberProvider {
   func get() -> Swift.String

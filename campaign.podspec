@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "campaign"
-    s.version      = "0.5.4"
+    s.version      = "0.5.5"
     s.summary      = "A SDK to integrate IceMobile campaigns into client apps"
     s.description  = "A SDK to integrate IceMobile campaigns into client apps"
     s.homepage     = "https://github.com/icemobilelab/campaign-sdk"
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "Campaign.xcframework"
     s.platform = :ios
     s.swift_version = "5.0"
-    s.ios.deployment_target  = '14.0'
+    s.ios.deployment_target  = '11.0'
 end
